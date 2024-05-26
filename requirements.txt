@@ -1,0 +1,4 @@
+allure-pytest==2.13.5
+pytest==8.2.1
+requests==2.32.2
+selene==2.0.0rc9
