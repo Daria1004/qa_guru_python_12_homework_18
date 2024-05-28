@@ -18,7 +18,7 @@ def browser_management():
     browser.quit()
 
 
-@pytest.fixture(scope='function', autouse=False)
+@pytest.fixture(scope='function')
 def cookie_customer():
     with allure.step('Получаем cookie посетителя'):
         result = requests.get(url=BASE_URL)
